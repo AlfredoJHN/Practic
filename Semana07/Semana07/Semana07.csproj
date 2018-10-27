@@ -79,6 +79,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj">
       <Project>{9244ac3b-9fe0-4425-8518-36654801f071}</Project>
       <Name>LogicaNegocio</Name>

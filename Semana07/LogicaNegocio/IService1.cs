@@ -16,9 +16,6 @@ namespace LogicaNegocio
         [OperationContract]
         string Show();
 
-        [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
-
         // TODO: Add your service operations here
     }
 
@@ -29,9 +26,6 @@ namespace LogicaNegocio
 
         [OperationContract]
         string Show();
-
-        [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
 
         // TODO: Add your service operations here
     }

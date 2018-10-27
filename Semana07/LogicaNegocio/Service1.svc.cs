@@ -12,14 +12,24 @@ namespace LogicaNegocio
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class EjemploCalculos : IEjemploCalculos,IEjemploCalculosDos
     {
-        String IEjemploCalculos.Show()
+        string IEjemploCalculos.Show()
         {
-            var Resultado = "Implementando EJCalculo1";
+            var Resultado = "Implementando EJCalculo1 ";
             return Resultado;
         }
-        String IEjemploCalculosDos.Show()
+        string IEjemploCalculos.Show(string Mensaje)
         {
-            var Resultado = "Implementando EJCalculo2";
+            var Resultado = "Implementando EJCalculo1 "+ Mensaje;
+            return Resultado;
+        }
+        string IEjemploCalculosDos.Show()
+        {
+            var Resultado = "Implementando EJCalculo1 ";
+            return Resultado;
+        }
+        string IEjemploCalculosDos.Show(string Menaje)
+        {
+            var Resultado = "Implementando EJCalculo2 "+Mensaje;
             return Resultado;
         }
         public string GetData(int value)
