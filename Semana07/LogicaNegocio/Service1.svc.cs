@@ -10,8 +10,18 @@ namespace LogicaNegocio
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
-    public class Service1 : IService1
+    public class EjemploCalculos : IEjemploCalculos,IEjemploCalculosDos
     {
+        String IEjemploCalculos.Show()
+        {
+            var Resultado = "Implementando EJCalculo1";
+            return Resultado;
+        }
+        String IEjemploCalculosDos.Show()
+        {
+            var Resultado = "Implementando EJCalculo2";
+            return Resultado;
+        }
         public string GetData(int value)
         {
             return string.Format("You entered: {0}", value);
