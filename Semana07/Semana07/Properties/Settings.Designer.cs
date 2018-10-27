@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Práctica.Properties
+namespace Semana07.Properties
 {
 
 
