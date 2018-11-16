@@ -12,7 +12,7 @@ namespace LogicaNegocio
     [ServiceContract]
     public interface IEjemploCalculosDos
     {
-
+    //asdasdasdadsadasdadasdasdasdasdadad
         [OperationContract]
         string Show();
 
